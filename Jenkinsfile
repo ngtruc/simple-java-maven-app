@@ -4,6 +4,6 @@ node {
         git 'https://github.com/cloudogu/jenkinsfiles'
     }
     stage('Build') {
-        sh "${mvnHome}/bin/mvn -B package"
+        sh "mvn -B package"
     }
 }
