@@ -1,5 +1,5 @@
 node {
-    def mvnHome = tool 'M3'
+    def mvnHome = tool 'Maven'
     stage('Checkout') {
         git 'https://github.com/cloudogu/jenkinsfiles'
     }
